@@ -14,7 +14,7 @@ class Product:
 
 
 def list_products() -> list[Product]:
-    return [Product.load(product) for product in dao.list_products()]
+    return [Product.load(product) for product in dao.list_products()]    #Writing a list comprehension to improve efficiency
 
 
 
